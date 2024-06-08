@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "find-nearest-tailwind-color",
-  "title": "find-nearest-tailwind-color",
+  "title": "Find nearest tailwind color",
   "description": "This extension allows you to bring your custom color and find the closest color from the Tailwind CSS palette.",
   "icon": "command-icon.png",
   "author": "michael_nabil230",
@@ -10,6 +10,14 @@
     "Design Tools"
   ],
   "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "color",
+    "nearest",
+    "find",
+    "tailwindcss",
+    "raycast"
+  ],
   "commands": [
     {
       "name": "index",
@@ -18,12 +26,13 @@
       "mode": "view"
     }
   ],
-  "tools": null,
   "dependencies": {
-    "@raycast/api": "^1.76.0"
+    "@raycast/api": "^1.76.0",
+    "nearest-color": "^0.4.4"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",
+    "@types/nearest-color": "^0.4.1",
     "@types/node": "20.8.10",
     "@types/react": "18.2.27",
     "eslint": "^8.51.0",
